@@ -38,7 +38,9 @@ docker build -t supply-chain-api .
 ```
 
 ####  Run the container (Maps local port 5000 to container port 5000)
+```bash
 docker run -p 5000:5000 supply-chain-api
+```
 
 ## Testing the API
 While the container is running, execute the provided test script in a separate terminal to receive a live prediction:
