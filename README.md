@@ -28,7 +28,8 @@ Supply chain managers face the "Bullwhip Effect" where inaccurate demand forecas
 ---
 
 ## Deployment with Docker
-'''
+```bash
 docker build -t supply-chain-api .
 docker run -p 5000:5000 supply-chain-api
-'''
+
+
