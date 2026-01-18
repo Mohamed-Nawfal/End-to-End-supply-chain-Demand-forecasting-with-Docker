@@ -41,8 +41,8 @@ docker build -t supply-chain-api .
 docker run -p 5000:5000 supply-chain-api
 
 ## Testing the API
-```bash
 While the container is running, execute the provided test script in a separate terminal to receive a live prediction:
+```bash
 python test_api.py
 ```
 
